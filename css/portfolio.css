@@ -1,0 +1,24 @@
+main{
+	display: flex;
+	align-items:center;
+	justify-content: center;
+	padding: 10px;
+	margin-top: -18px;
+}
+nav{
+	border-radius: 15px 15px 0px 0px;
+	padding-bottom: 20px;
+}
+.leftd{
+	height: 30px;
+	width: 30px;
+}
+.rightd{
+	height: 30px;
+	width: 30px;
+}
+.midd{
+	height: 600px;
+	width: 600px;
+	margin: 10px;
+}

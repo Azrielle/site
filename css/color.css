@@ -1,0 +1,41 @@
+html{
+	background-color: #BCBCBCFF;
+}
+body{
+	/*background-color: #fff;*/
+}
+header{
+	/*background-color: #ff0;*/
+}
+#continer{
+	/*background-color: #FFE;*/
+}
+#headul{
+	/*background-color: #FFE;*/
+}
+.social-profile:hover{
+	background-color: #555;
+
+}
+main{
+	background-color: #FFE;
+	border-radius: 20px;
+
+}
+#first{
+	background-color: #fdd42f;
+	border-radius: 20px;
+}
+h1 {font-size: 37px;}
+	h2 {font-size: 30px;}
+	h3 {font-size: 20px;}
+	h4 {font-size: 15px;}
+	h5 {font-size: 13px;}
+	h6 {font-size: 12px;}
+
+.about{
+	/*background-color:#CCCFFEFF;*/
+}
+.personal-info{
+	/*background-color: #CCFED8FF;*/
+}
