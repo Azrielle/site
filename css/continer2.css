@@ -1,44 +1,10 @@
-#continer2{
-	min-width: 300px;
-	max-width: 1050px;
-	margin-left: auto;
-	margin-right: auto;
-	padding:10px;
-	padding-top: 0px;
-	margin-top: -18px;
-
-	min-width: 300px;
-	max-width: 1050px;
-	margin-left: auto;
-	margin-right: auto;
-	max-height: 1000px;
-
-	/*transition: all 20s ease-in-out;*/
-	/*transition: height 20s cubic-bezier(1, 1, 1, 1) 500ms;*/
-	transition-property: max-height;    /*элемент*/
-	transition-duration: 2s;	/*время*/
-	transition-timing-function: linear;	/*вид перехода*/
-	overflow: hidden;
-}
-#continer2.classhide{
-	transition:max-height 2s linear 0s,opacity 0.1s linear 1.9s;
-  	max-height: 0px;
-  	opacity:0;
-}
-
 #continer2 main{
 	display: flex;
 	justify-content: space-around;
 	flex-wrap: wrap;
 	margin-top: 0px;
 	background-color: #FFE;
-	border-radius: 20px;
 }
-
-/*nav{
-	border-radius: 15px 15px 0px 0px;
-	padding-bottom: 20px;
-}*/
 .leftd{
 	width: 50%;
 	min-width: 300px;
@@ -51,33 +17,31 @@
 }
 .leftd ul li{
 	border-left: 1px solid #FFB25BFF;
-}
-li{
 	padding-left: 10px;
 }
-li h5{
+.leftd h5{
 	color: #BFBFBFFF;
 	margin: 0px;
 	font-size: 15px;
 }
-li h3{
+.leftd li h3{
 	background-image: none;
 	margin: 10px 0px 10px 0px;
 	font-size: 18px;
 }
-li p{
+.leftd li p{
 	font-size: 14px;
 }
 
-span{
+.leftd span{
 	margin-left: 20px;
 }
-.spanresume{
+.leftd li span{
 	color: #F4A800FF;
 	text-align: left;
 	float: right;
 }
-h3{
+.leftd h3,.rightd h3{
 	border-bottom: 1px solid #000000;
 	background-image: url(../img/plus.png);
 	background-repeat:no-repeat;
@@ -106,7 +70,7 @@ h3{
 	align-items: center;
 	justify-content: space-between;
 }
-h4{
+.rightd h4{
 	width: 123px;
 	margin: 5px;
 	

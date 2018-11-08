@@ -1,62 +1,37 @@
-#continer{
-	min-width: 300px;
-	max-width: 1050px;
-	margin-left: auto;
-	margin-right: auto;
-	padding: 10px;
-	max-height: 1000px;
-	margin-bottom: -30px;
-	position: relative;
-	z-index: 0;
-
-	/*transition: all 20s ease-in-out;*/
-	/*transition: height 20s cubic-bezier(1, 1, 1, 1) 500ms;*/
-	transition-property: max-height;    /*элемент*/
-	transition-duration: 2s;	/*время*/
-	transition-timing-function: linear;	/*вид перехода*/
-	overflow: hidden;
-}
-#continer.classhide{
-	transition:max-height 2s linear 0s,opacity 0.1s linear 1.9s;
-  	max-height: 0px;
-  	opacity:0;
-}
-
-#continer h1{
-	font-weight:900;
-	color:#FFF;
-	line-height:34px;
-	margin-top:8px;
-}
-#continer h2{
-	margin-top:5px;
-	font-size:18px;
-	color:#FFF;
-	line-height:18px;
-}
-#first{
+#continer main{
 	overflow: hidden;
 	padding:50px 0px 100px 0px;
 	background-color: #fdd42f;
-	border-radius: 20px;
+
+	
 }
 .about{
 	float: left;
 	margin: 10px;
 }
-.foto{
+.about img{
 	width: 180px;
 	height: 200px;
-	background: url("../img/foto.jpg") no-repeat;
-	margin: 30px;
 	float: left;
+	margin: 30px;
 }
-.aboutp{
+.about h1{
+	font-weight:900;
+	color:#FFF;
+	line-height:34px;
+	margin-top:8px;
+}
+.about h2{
+	margin-top:5px;
+	font-size:18px;
+	color:#FFF;
+	line-height:18px;
+}
+.about p{
 	font-size:14px;
 	margin-top:15px;
 	color:#bc9010;
 	line-height:20px;
-	/*max-width: 500px;*/
 }
 .personal-info{
 	float: right;

@@ -1,7 +1,7 @@
 .menuIndex{
 	/*background-color: #6F5D52FF;*/
 	box-shadow: 2px 2px 5px rgba(0,0,0,0.4); 
-	margin-top: 0px;
+	margin-top: -16px;
 	padding-top: 18px;
 	border-radius: 0px 0px 15px 15px;
 	background-color: #ECEADEFF;	
@@ -10,9 +10,7 @@
 	max-width: 1050px;
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: 18px;
-
-
+	margin-bottom: 0px;
 }
 .menuOther {
 	box-shadow: 2px 2px 5px rgba(0,0,0,0.4); 
@@ -25,19 +23,8 @@
 	margin-left: auto;
 	margin-right: auto;
 	padding-top: 18px;
+	margin-bottom: -15px;
 }
-#menud{
-	margin-left:  10px;
-	margin-right: 10px;
-}
-/*/*nav{
-	/*background-color: #6F5D52FF;*/
-	/*box-shadow: 2px 2px 5px rgba(0,0,0,0.4); 
-	margin-top: -15px;
-	padding-top: 18px;
-	border-radius: 0px 0px 15px 15px;
-	background-color: #ECEADEFF;	
-}*/
 nav ul{
 	display: flex;
 	list-style-type: none;
